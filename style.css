@@ -2,11 +2,22 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Work Sans', Arial, sans-serif;
   background-color: #ffffff;
   color: #333;
   line-height: 1.6;
   font-size: 18px; /* Increased font size for better readability */
+}
+
+/* Font Utility Classes */
+.fredoka {
+  font-family: 'Fredoka', Arial, sans-serif;
+  font-weight: 700;
+}
+
+.worksans {
+  font-family: 'Work Sans', Arial, sans-serif;
+  font-weight: 400;
 }
 
 /* Hero Section */
@@ -26,12 +37,16 @@ body {
   margin: 20px 0 10px;
   color: #16213e;
   font-size: 3.5em; /* Increased font size using em */
+  font-family: 'Fredoka', Arial, sans-serif;
+  font-weight: 700;
 }
 
 .hero p {
   margin: 10px 0 30px;
   color: #555;
   font-size: 20px; /* Increased font size */
+  font-family: 'Work Sans', Arial, sans-serif;
+  font-weight: 400;
 }
 
 .hero button {
@@ -42,6 +57,8 @@ body {
   cursor: pointer;
   padding: 1em 2em; /* Increased button size using em */
   font-size: 1.1em; /* Increased font size using em */
+  font-family: 'Fredoka', Arial, sans-serif;
+  font-weight: 600;
 }
 
 .hero button:hover {
@@ -56,6 +73,8 @@ body {
   margin: 40px auto;
   max-width: 950px;
   font-size: 1.25em; /* Increased font size */
+  font-family: 'Work Sans', Arial, sans-serif;
+  font-weight: 400;
 }
 
 /* How It Works Section */
@@ -70,6 +89,8 @@ body {
   margin-bottom: 20px;
   color: #0f3460;
   font-size: 32px; /* Increased font size */
+  font-family: 'Fredoka', Arial, sans-serif;
+  font-weight: 700;
 }
 
 .how-it-works ol {
@@ -79,6 +100,8 @@ body {
   margin: 0 auto;
   color: #333;
   text-align: left;
+  font-family: 'Work Sans', Arial, sans-serif;
+  font-weight: 400;
 }
 
 .how-it-works li {
@@ -88,6 +111,8 @@ body {
 
 strong {
   color: #533483;
+  font-family: 'Fredoka', Arial, sans-serif;
+  font-weight: 600;
 }
 
 /* Features Section */
@@ -104,6 +129,8 @@ strong {
   margin-bottom: 20px;
   color: #1a1a2e;
   font-size: 32px; /* Increased font size */
+  font-family: 'Fredoka', Arial, sans-serif;
+  font-weight: 700;
 }
 
 .features ul {
@@ -112,6 +139,8 @@ strong {
   margin: 0;
   text-align: left;
   color: #333;
+  font-family: 'Work Sans', Arial, sans-serif;
+  font-weight: 400;
 }
 
 .features li {
@@ -122,6 +151,8 @@ strong {
 .features li strong {
   display: block;
   margin-bottom: 5px;
+  font-family: 'Fredoka', Arial, sans-serif;
+  font-weight: 600;
 }
 
 footer {
@@ -130,4 +161,6 @@ footer {
   text-align: center;
   padding: 20px 0;
   font-size: 0.9em;
+  font-family: 'Work Sans', Arial, sans-serif;
+  font-weight: 400;
 }
